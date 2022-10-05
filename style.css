@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 350px;
+    border: 7px grey dotted;
+    /* margin: 20px 20px; */
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+}
+.lotto{
+    text-align: center;
+}
+.lotto h3{
+    font-size: 3em;
+    font-weight: 450;
+    text-shadow: 0px 1px 1px grey;
+
+}
+
+.eachnum{
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    background-color: beige;
+    /* box-shadow: 3px 3px 5px 3px #626365; */
+    box-shadow: 0 -2px 2px #4a4949 inset;
+    color: rgb(6, 6, 6);
+    filter: brightness(115%);
+
+}
+
+.container{
+    width: 350px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(185, 88, 218);
+}
+
+button:active{
+    font-size: 1.2em;
+    width: 105px;
+    height: 42px;
+}
+
+button:hover{
+    background-color: rgb(206, 30, 219);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
